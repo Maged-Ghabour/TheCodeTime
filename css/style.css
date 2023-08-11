@@ -32,7 +32,6 @@ html {
 }
 
 body {
-  font-family: "Work Sans", sans-serif;
   text-transform: capitalize;
   font-family: "Helvetica Neue";
   
@@ -139,6 +138,7 @@ header .container {
 
 .image-feature {
   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  -webkit-clip-path :  polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 /* End Features */
 
